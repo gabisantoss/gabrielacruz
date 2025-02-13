@@ -5,6 +5,37 @@
   color: #fefefe;
 }
 
+
+.highlight {
+  color: #fff;
+  text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+  /* text-shadow: 1px 1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, -1px -1px 1px #000 */
+}
+
+.continuous-text-highlight {
+  font-weight: 600;
+  cursor: default;
+}
+.continuous-text-highlight:hover {
+  background-color: #fffcca;
+}
+
+.highlight:hover {
+  color: #000;
+  text-shadow:none;
+}
+
+.highlight.c1:hover {
+  background-color: #fffcca;
+}
+.highlight.c2:hover {
+  background-color: #fffcca;
+}
+.highlight.c3:hover {
+  background-color: #fffcca;
+}
+
 :root {
   --sh-class: #2d5e9d;
   --sh-identifier: #354150;
@@ -31,7 +62,18 @@
 
 html {
   min-width: 360px;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
+
+p a {
+  text-decoration: underline;
+}
+
+.hero {
+  font-family: 'Roboto', Arial;
+}
+
 
 .prose .anchor {
   @apply absolute invisible no-underline;
@@ -48,7 +90,7 @@ html {
 }
 
 .prose a {
-  @apply underline transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
+  @apply underline transition-all dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
 }
 
 .prose .anchor:after {
@@ -83,9 +125,9 @@ html {
   @apply m-0;
 }
 
-.prose p {
+/* .prose p {
   @apply my-4 text-neutral-800 dark:text-neutral-200;
-}
+} */
 
 .prose h1 {
   @apply text-4xl font-medium tracking-tight mt-6 mb-2;

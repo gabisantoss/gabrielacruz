@@ -1,20 +1,27 @@
-import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image'
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
+      <div className="mb-4">
+        <Image
+          className="rounded-full mb-5 cursor-pointer transition delay-150 duration-150 ease-in-out hover:scale-110"
+          src="/img/iconv5.jpg"
+          width={120}
+          height={120}
+          alt="Gabriela Cruz"
+          draggable={false}
+          quality={100}
+          unoptimized
+          priority
+        />
+        <div className="text-[3em] color-black text-lin cursor-default max-[900] font-bold text-justify w-[450px] hero" id="hero-text">
+          <p>oi! eu sou a
+            <span> </span><span className="highlight c1">Gabi</span>, uma
+            <span> </span><span className="highlight c2">desenvolvedora de software</span><span> do </span>
+            <span className="highlight c3">Rio de Janeiro</span>.
+          </p>
+        </div>
       </div>
     </section>
   )
