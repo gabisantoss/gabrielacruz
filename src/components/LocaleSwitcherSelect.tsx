@@ -20,7 +20,6 @@ export default function LocaleSwitcherSelect({
     const [activeLocale, setActiveLocale] = useState<Locale>(defaultValue as Locale);
 
     useEffect(() => {
-        // Ensure state reflects the correct locale on mount
         setActiveLocale(defaultValue as Locale);
     }, [defaultValue]);
 
@@ -42,16 +41,16 @@ export default function LocaleSwitcherSelect({
     }
 
     return (
-        <div className="flex flex-row items-center mt-1 right-1 dark:bg-gray-300 bg-gray-800 rounded-md h-fit cursor-pointer">
+        <div className="ml-2 sm:ml-0 flex flex-row items-center right-1 dark:bg-gray-300 bg-black rounded-md h-fit cursor-pointer">
             <button
                 disabled={isPending}
                 onClick={onButtonClick}
                 value='pt'
                 className={clsx(
-                    "border-gray-800 dark:border-gray-300 border-2 cursor-pointer font-semibold rounded-bl-md rounded-tl-md appearance-none py-1 px-2 m-0 flex flex-row items-center text-xs transition-all duration-200 ease-in-out",
+                    "border-black dark:border-gray-300 border-2 text-nowrap cursor-pointer font-semibold rounded-bl-md rounded-tl-md appearance-none py-1 px-2 m-0 flex flex-row items-center text-xs transition-all duration-200 ease-in-out",
                     activeLocale === "pt"
-                        ? "dark:bg-gray-300 bg-gray-800 dark:text-gray-800 text-gray-200 shadow-inner scale-95 translate-y-[1px]"  // Pressed style
-                        : "dark:bg-black dark:text-gray-200  bg-white text-gray-800 hover:opacity-80"
+                        ? "dark:bg-gray-300 bg-black dark:text-black text-gray-200 shadow-inner scale-95 translate-y-[1px]"
+                        : "dark:bg-black dark:text-gray-200  bg-white text-black hover:opacity-80"
                 )}
             >
                 <span>PT-BR</span>
@@ -59,10 +58,10 @@ export default function LocaleSwitcherSelect({
             </button>
 
             <button disabled={isPending} onClick={onButtonClick} value='en' className={clsx(
-                "border-gray-800 dark:border-gray-300 border-2 cursor-pointer font-semibold rounded-br-md rounded-tr-md appearance-none py-1 px-2 m-0 flex flex-row items-center text-xs transition-all duration-200 ease-in-out",
+                "border-black dark:border-gray-300 border-2 cursor-pointer font-semibold rounded-br-md rounded-tr-md appearance-none py-1 px-2 m-0 flex flex-row items-center text-xs transition-all duration-200 ease-in-out",
                 activeLocale === "en"
-                    ? "dark:bg-gray-300 bg-gray-800 dark:text-gray-800 text-gray-200 shadow-inner scale-95 translate-y-[1px]"  // Pressed style
-                    : "dark:bg-black dark:text-gray-200  bg-white text-gray-800 hover:opacity-90"
+                    ? "dark:bg-gray-300 bg-black dark:text-black text-gray-200 shadow-inner scale-95 translate-y-[1px]"
+                    : "dark:bg-black dark:text-gray-200  bg-white text-black hover:opacity-90"
             )}
 
             >

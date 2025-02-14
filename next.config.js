@@ -6,7 +6,7 @@ const config = {
     webpack: (config) => {
         config.resolve.alias = {
             ...config.resolve.alias,
-            "@": path.resolve(__dirname, "src"), // Alias for `src/`
+            "@": path.resolve(__dirname, "src"),
         };
         return config;
     },
