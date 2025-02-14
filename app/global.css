@@ -1,10 +1,9 @@
 @import 'tailwindcss';
 
 ::selection {
-  background-color: #47a3f3;
+  background-color: #151515;
   color: #fefefe;
 }
-
 
 .highlight {
   color: #fff;
@@ -18,21 +17,6 @@
   cursor: default;
 }
 .continuous-text-highlight:hover {
-  background-color: #fffcca;
-}
-
-.highlight:hover {
-  color: #000;
-  text-shadow:none;
-}
-
-.highlight.c1:hover {
-  background-color: #fffcca;
-}
-.highlight.c2:hover {
-  background-color: #fffcca;
-}
-.highlight.c3:hover {
   background-color: #fffcca;
 }
 
@@ -189,4 +173,19 @@ table {
 
 .title {
   text-wrap: balance;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+  .highlight:hover, .highlight-desktop:hover{
+    text-shadow:none;
+    color: black;
+  }
+
+  .highlight-desktop {
+    color: #fff;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+                 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+  }
 }

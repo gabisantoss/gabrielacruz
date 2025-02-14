@@ -77,7 +77,7 @@ const about = {
         "descobri cedo minha paixão pela tecnologia. Durante esse período, " +
         "desenvolvi uma base sólida em algoritmos, estrutura de dados e lógica de programação, " +
         "realizando meus primeiros projetos. Atualmente, estudo <span class='continuous-text-highlight'>Ciência da Computação</span> " +
-        "na <span class='continuous-text-highlight'>Universidade Federal do Rio de Janeiro</span>, " +
+        "na <span class='continuous-text-highlight'>Universidade Estadual do Rio de Janeiro</span>, " +
         "onde busco levar esse conhecimento para outro nível. <br><br>" +
         "Além disso, trabalho na <a href='https://somos.globo.com/'>maior emissora da América Latina</a> como <span class='continuous-text-highlight'>Desenvolvedora de Software Pleno</span>, " +
         "desenvolvendo uma <span class='continuous-text-highlight'>Pipeline</span> integrada aos softwares de criação de conteúdo " +
@@ -90,7 +90,7 @@ const about = {
         "I discovered my passion for technology early on. During this period, " +
         "I built a strong foundation in algorithms, data structures, and programming logic, " +
         "working on my first projects. Today, I study <span class='continuous-text-highlight'>Computer Science</span> " +
-        "at the <span class='continuous-text-highlight'>Federal University of Rio de Janeiro</span>, " +
+        "at the <span class='continuous-text-highlight'>University of Rio de Janeiro State</span>, " +
         "where I continue to strengthen this foundation while learning new things every day. " +
         "Currently, I work at the largest broadcaster in Latin America as a " +
         "<span class='continuous-text-highlight'>Mid-Level Software Developer</span>, " +
@@ -115,16 +115,16 @@ export default function Page() {
                 </h1>
                 <p
                     dangerouslySetInnerHTML={{ __html: about['pt'] }}
-                    className="text-sm text-gray-800 text-justify"
+                    className="text-sm text-gray-800 text-justify mb-10"
                 />
-                <h2 className="font-bold text-sm mt-5 mb-5">Conhecimentos</h2>
+                <h2 className="font-bold text-sm/[2px] mt-5 mb-5 border-b border-gray-700"><span className="bg-white py-3 pr-4 ">Conhecimentos</span></h2>
                 <div className="font-sans flex flex-col gap-4">
                     {Object.entries(skills['pt']).map(([category, skills]) => (
                         <div key={category}>
                             <h3 className="text-xs mb-1">{category}</h3>
-                            <div className="flex flex-row gap-2">
+                            <div className="flex flex-row flex-wrap gap-2">
                                 {skills.map((skill) => (
-                                    <span key={skill} className="text-xs bg-black font-semibold pr-2 pl-2 py-1 text-gray-200 hover:text-[#fffcca] rounded-sm cursor-default">{skill}</span>
+                                    <span key={skill} className="text-xs bg-black font-semibold pr-2 pl-2 py-1 text-gray-200 transition delay-100 duration-150 ease-in-out hover:text-[#fffcca] rounded-sm cursor-default">{skill}</span>
                                 ))}
                             </div>
                         </div>

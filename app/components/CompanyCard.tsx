@@ -24,18 +24,15 @@ export default function CompanyCard({ company }) {
                     <div>
                         <div className='flex flex-row gap-2 items-center'>
                             <p className='text-md font-semibold'>{company.name}</p>
-                            <div className='arrow transform rotate-270'>
-                                <ArrowIcon />
-                            </div>
                         </div>
                         <p className='text-xs'>{company.position}</p>
                     </div>
-                    <div className='m-1'>
-                        <p className='text-gray-500 font-medium text-sm'>{company.startDate} - {company.endDate}</p>
+                    <div className='m-2'>
+                        <p className='text-gray-500 font-medium text-xs lg:text-sm'>{company.startDate} - {company.endDate}</p>
                     </div>
                 </div>
             </div>
-            <div className='text-sm ml-2 text-gray-800 text-justify'><p dangerouslySetInnerHTML={{ __html: company.description }} /></div>
+            <div className='text-sm text-gray-800 text-justify'><p dangerouslySetInnerHTML={{ __html: company.description }} /></div>
         </div>
     )
 }

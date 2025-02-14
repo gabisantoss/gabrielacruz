@@ -53,7 +53,7 @@ export default function RootLayout({
     <html
       lang="en">
       <body className={cx(
-        'font-sans subpixel-antialiased max-w-xl mx-4 mt-8 lg:mx-auto',
+        'font-sans subpixel-antialiased max-w-md 2xl:max-w-xl mx-4 mt-8 mx-auto',
         fontSans.variable
       )}>
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
