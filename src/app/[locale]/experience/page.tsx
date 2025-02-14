@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-import CompanyCard from "src/components/CompanyCard"
+import CompanyCard from "@/components/CompanyCard"
 
 export const metadata = {
     title: 'Experiência',

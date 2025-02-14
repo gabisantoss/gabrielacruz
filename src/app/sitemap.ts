@@ -1,4 +1,4 @@
-import { getBlogPosts } from 'src/app/[locale]/blog/utils'
+import { getBlogPosts } from '@/app/[locale]/blog/utils'
 
 export const baseUrl = 'https://gabrielacruz.fly.dev/'
 
