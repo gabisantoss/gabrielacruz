@@ -6,7 +6,7 @@ import { computeFromManifest } from 'next/dist/build/utils'
 export default function CompanyCard({ company }) {
     return (
         <div>
-            <div className="font-sans flex flex-row gap-4 cursor-default">
+            <div className="font-sans flex flex-row gap-4 cursor-default text-black dark:text-gray-200">
                 <div className="flex font-sans flex-row items-center">
                     <a href={company.url
                     }>
@@ -28,11 +28,11 @@ export default function CompanyCard({ company }) {
                         <p className='text-xs'>{company.position}</p>
                     </div>
                     <div className='m-2'>
-                        <p className='text-gray-500 font-medium text-xs lg:text-sm'>{company.startDate} - {company.endDate}</p>
+                        <p className='text-gray-500 dark:text-gray-400 font-medium text-xs'>{company.startDate} - {company.endDate}</p>
                     </div>
                 </div>
             </div>
-            <div className='text-sm text-gray-800 text-justify'><p dangerouslySetInnerHTML={{ __html: company.description }} /></div>
+            <div className='text-sm text-gray-800 dark:text-gray-50 text-justify'><p dangerouslySetInnerHTML={{ __html: company.description }} /></div>
         </div>
     )
 }

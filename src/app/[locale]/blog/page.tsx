@@ -1,4 +1,4 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from 'src/components/posts'
 
 export const metadata = {
   title: 'Blog',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-      <h1 className="font-bold text-xl mb-5">
+      <h1 className="font-bold text-xl mb-5 text-black dark:text-gray-200">
         Últimas Publicações
       </h1>
       <BlogPosts />

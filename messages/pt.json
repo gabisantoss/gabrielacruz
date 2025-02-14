@@ -1,0 +1,21 @@
+{
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, pt {🇧🇷 Português} en {🇺🇸 English} other {Unknown}}"
+    },
+    "Navbar": {
+        "home": "Início",
+        "about": "Sobre",
+        "experience": "Experiência"
+    },
+    "LocaleLayout": {
+        "title": "Gabriela Cruz | desenvolvimento de software e tecnologia"
+    },
+    "HomePage": {
+        "hero": "oi! eu sou a<span> </span><span>Gabi</span>, uma<span> </span><span className='bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-[200%] animate-gradient'>desenvolvedora de software</span><span> do </span><span>Rio de Janeiro</span>."
+    },
+    "About": {
+        "title": "Sobre",
+        "text": "Formada no Ensino Técnico em Informática com ênfase em Programação pelo <span class='continuous-text-highlight'>CEFET/RJ</span> aos 18 anos, descobri cedo minha paixão pela tecnologia. Durante esse período, desenvolvi uma base sólida em algoritmos, estrutura de dados e lógica de programação, realizando meus primeiros projetos. Atualmente, estudo <span class='continuous-text-highlight'>Ciência da Computação</span> na <span class='continuous-text-highlight'>Universidade Estadual do Rio de Janeiro</span>, onde busco levar esse conhecimento para outro nível.<br><br>Além disso, trabalho na <a href='https://somos.globo.com/'>maior emissora da América Latina</a> como <span class='continuous-text-highlight'>Desenvolvedora de Software Pleno</span>, desenvolvendo uma <span class='continuous-text-highlight'>Pipeline</span> integrada aos softwares de criação de conteúdo utilizados pelos designers de <span class='continuous-text-highlight'>Efeitos Visuais</span>.<br><br>O projeto envolve ferramentas em <span class='continuous-text-highlight'>Python</span> e <span class='continuous-text-highlight'>Qt</span>, e tem como objetivo principal otimizar e facilitar o dia a dia dessa equipe."
+    }
+}

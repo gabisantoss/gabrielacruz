@@ -1,0 +1,58 @@
+{
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, pt {🇧🇷 Português} en {🇺🇸 English} other {Unknown}}"
+    },
+    "Navbar": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience"
+    },
+    "LocaleLayout": {
+        "title": "Gabriela Cruz | software engineering and technology"
+    },
+    "HomePage": {
+        "title": "Gabriela Cruz | software engineering and technology",
+        "hero": "hi! i'm<span> </span><span>Gabi</span>, a<span> </span><span className='bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-[200%] animate-gradient'>Software Engineer</span><span> based in </span><span>Rio de Janeiro</span>."
+    },
+    "About": {
+        "title": "About",
+        "text": "Graduated in Technical Informatics with a focus on Programming at <span class='continuous-text-highlight'>CEFET/RJ</span>, I discovered my passion for technology early on. During this period, I built a strong foundation in algorithms, data structures, and programming logic, working on my first projects.<br><br>Today, I study <span class='continuous-text-highlight'>Computer Science</span> at the <span class='continuous-text-highlight'>University of Rio de Janeiro State</span>, where I continue to strengthen this foundation while learning new things every day.<br><br>Currently, I work at the largest broadcaster in Latin America as a <span class='continuous-text-highlight'>Mid-Level Software Developer</span>, developing an integrated <span class='continuous-text-highlight'>Pipeline</span> for the content creation software used by <span class='continuous-text-highlight'>Visual Effects</span> designers.<br><br>The project involves tools in <span class='continuous-text-highlight'>Python</span> and <span class='continuous-text-highlight'>Qt</span>, aiming to optimize and streamline their daily workflow.",
+        "skillsTitle": "Skills",
+        "skills": {
+            "Programming Languages": [
+                "Python",
+                "JavaScript",
+                "TypeScript",
+                "C#"
+            ],
+            "Front-end": [
+                "Qt",
+                "React.js",
+                "Next.js",
+                "Vue.js"
+            ],
+            "Back-end": [
+                "Django",
+                "Express",
+                "Nest.js",
+                "Node.js",
+                ".NET"
+            ],
+            "Databases": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "Firestore"
+            ],
+            "Infrastructure": [
+                "Google Cloud",
+                "AWS",
+                "Docker",
+                "Jenkins",
+                "Github Actions",
+                "Gitlab CI/CD"
+            ]
+        }
+    }
+}
