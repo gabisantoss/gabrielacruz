@@ -52,7 +52,7 @@ export default function Navbar() {
         >
           <div className="flex flex-row">
             <Link
-              key="home"
+              key="{t('home')}"
               href='/'
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 text-[14px] sm:text-[16px] lowercase"
             >
@@ -72,14 +72,16 @@ export default function Navbar() {
             >
               {t('experience')}
             </Link>
+
             <div className='align-middle py-1 px-2 m-1 cursor-pointer flex gap-5 flex-row text-[14px] sm:text-[16px]'>
-              <LocaleSwitcher />
               {theme === "light" ? (
                 <SunIcon isDesktop={isDesktop} onClick={toggleTheme} />
               ) : (
                 <MoonIcon isDesktop={isDesktop} onClick={toggleTheme} />
               )}
             </div>
+            <LocaleSwitcher />
+
           </div>
         </nav>
       </div>

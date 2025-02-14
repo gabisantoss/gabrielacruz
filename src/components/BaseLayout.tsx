@@ -86,10 +86,10 @@ export default async function RootLayout({
                 <script dangerouslySetInnerHTML={{ __html: setInitialTheme }} />
             </head>
             <body className={cx(
-                'font-sans subpixel-antialiased max-w-md 2xl:max-w-xl mt-8 mx-auto dark:bg-black',
+                'font-sans subpixel-antialiased antia max-w-md 2xl:max-w-xl mt-8 mx-auto dark:bg-black',
                 fontSans.variable
             )}>
-                <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+                <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0 backdrop-blur-md bg-white/90 dark:bg-black/90">
                     <NextIntlClientProvider messages={messages}>
                         < Navbar />
                         {children}
