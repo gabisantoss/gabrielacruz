@@ -3,10 +3,10 @@
 import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/routing';
-import SunIcon from './icons/Sun'
-import MoonIcon from './icons/Moon';
+import SunIcon from '@/components/icons/Sun'
+import MoonIcon from '@/components/icons/Moon';
 import { useEffect, useState } from 'react';
-import LocaleSwitcher from './LocaleSwitcher';
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 
 export default function Navbar() {
   const t = useTranslations("Navbar"); // Hook para tradução

@@ -1,8 +1,5 @@
 import Image from 'next/image'
 
-import ArrowIcon from './icons/Arrow'
-import { computeFromManifest } from 'next/dist/build/utils'
-
 export default function CompanyCard({ company }) {
     return (
         <div>

@@ -1,6 +1,6 @@
-import GithubIcon from "./icons/Github"
-import LinkedinIcon from "./icons/Linkedin"
-import XIcon from "./icons/X"
+import GithubIcon from "@/components/icons/Github"
+import LinkedinIcon from "@/components/icons/Linkedin"
+import XIcon from "@/components/icons/X"
 
 export default function Footer() {
   return (

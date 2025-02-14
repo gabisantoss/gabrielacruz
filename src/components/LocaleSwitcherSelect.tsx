@@ -4,7 +4,6 @@ import clsx from 'clsx';
 import { useParams } from 'next/navigation';
 import { MouseEvent, ReactNode, useEffect, useState, useTransition } from 'react';
 import { Locale, usePathname, useRouter } from '@/i18n/routing';
-import ArrowIcon from './icons/Arrow';
 
 type Props = {
     defaultValue: string;
