@@ -1,0 +1,89 @@
+{
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, pt {🇧🇷 Português} en {🇺🇸 English} other {Unknown}}"
+    },
+    "Navbar": {
+        "home": "Início",
+        "about": "Sobre",
+        "experience": "Experiência"
+    },
+    "LocaleLayout": {
+        "title": "Gabriela Cruz | desenvolvimento de software e tecnologia"
+    },
+    "HomePage": {
+        "hero": "oi! eu sou a<span> </span><span>Gabi</span>, uma<span> </span><span className='bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-[200%] animate-gradient'>desenvolvedora de software</span><span> do </span><span>Rio de Janeiro</span>."
+    },
+    "About": {
+        "title": "Sobre",
+        "text": "Formada no Ensino Técnico em Informática com ênfase em Programação pelo <span class='continuous-text-highlight'>CEFET/RJ</span> aos 18 anos, descobri cedo minha paixão pela tecnologia. Durante esse período, desenvolvi uma base sólida em algoritmos, estrutura de dados e lógica de programação, realizando meus primeiros projetos. Atualmente, estudo <span class='continuous-text-highlight'>Ciência da Computação</span> na <span class='continuous-text-highlight'>Universidade Estadual do Rio de Janeiro</span>, onde busco levar esse conhecimento para outro nível.<br><br>Além disso, trabalho na <a href='https://somos.globo.com/'>maior emissora da América Latina</a> como <span class='continuous-text-highlight'>Desenvolvedora de Software Pleno</span>, desenvolvendo uma <span class='continuous-text-highlight'>Pipeline</span> integrada aos softwares de criação de conteúdo utilizados pelos designers de <span class='continuous-text-highlight'>Efeitos Visuais</span>.<br><br>O projeto envolve ferramentas em <span class='continuous-text-highlight'>Python</span> e <span class='continuous-text-highlight'>Qt</span>, e tem como objetivo principal otimizar e facilitar o dia a dia dessa equipe.",
+        "skillsTitle": "Conhecimentos",
+        "skills": {
+            "Programming Languages": [
+                "Python",
+                "JavaScript",
+                "TypeScript",
+                "C#"
+            ],
+            "Front-end": [
+                "Qt",
+                "React.js",
+                "Next.js",
+                "Vue.js"
+            ],
+            "Back-end": [
+                "Django",
+                "Express",
+                "Nest.js",
+                "Node.js",
+                ".NET"
+            ],
+            "Databases": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "Firestore"
+            ],
+            "Infrastructure": [
+                "Google Cloud",
+                "AWS",
+                "Docker",
+                "Jenkins",
+                "Github Actions",
+                "Gitlab CI/CD"
+            ]
+        }
+    },
+    "Experience": {
+        "title": "Experiência de Trabalho",
+        "companies": [
+            {
+                "name": "Globo",
+                "image": "/img/globo.jpg",
+                "url": "https://somos.globo.com/",
+                "position": "Desenvolvedora de Software Pleno",
+                "startDate": "Fev 2024",
+                "endDate": "Atualmente",
+                "description": "Trabalho no desenvolvimento de uma aplicações de Pipeline para controle de processos em VFX com <span class='continuous-text-highlight'>Python</span>, criando soluções ágeis para colaborar com desempenho, organização e produtividade de Designers. Colaboro arquiteturalmente com o projeto de ponta a ponta, desde a orquestração de serviços com <span class='continuous-text-highlight'>Docker</span> e na implementação de <span class='continuous-text-highlight'>computação em nuvem</span> na Google Cloud Platform, além de atuar com bancos de dados, tanto NoSQL (Firestore) quanto relacionais, como MySQL. Também participo ativamente de decisões estratégicas sobre <span class='continuous-text-highlight'>padrões de projeto</span>, atuo no entendimento das regras de negócio do software e em sua documentação."
+            },
+            {
+                "name": "Descomplica",
+                "image": "/img/descomplica.jpg",
+                "url": "https://descomplica.com.br/",
+                "position": "Desenvolvedora de Software Jr.",
+                "startDate": "Ago 2022",
+                "endDate": "Fev 2024",
+                "description": "Trabalhei no desenvolvimento de soluções com <span class='continuous-text-highlight'>JavaScript</span>, TypeScript e <span class='continuous-text-highlight'>Node.js</span>, criando e aprimorando sistemas associados ao LMS da plataforma. Atuei na implementação de novas features com <span class='continuous-text-highlight'>APIs RESTful</span> e <span class='continuous-text-highlight'>GraphQL</span>, garantindo eficiência e escalabilidade. Também fui responsável por deploys em ambientes locais utilizando <span class='continuous-text-highlight'>Docker</span> e pelo monitoramento da saúde das aplicações com Grafana e Sentry. Além disso, contribuí para a automação e controle de pipelines de CI/CD com ferramentas como Jenkins e GitHub Actions, garantindo integração contínua e entregas ágeis."
+            },
+            {
+                "name": "Concilie Online",
+                "image": "/img/concilie.jpg",
+                "url": "https://www.concilie.com.br/",
+                "position": "Desenvolvedora de Software Jr",
+                "startDate": "Ago 2022",
+                "endDate": "Fev 2024",
+                "description": "Trabalhei no desenvolvimento full stack com <span class='continuous-text-highlight'>Python</span>, <span class='continuous-text-highlight'>Django</span>, <span class='continuous-text-highlight'>Node.js</span> e <span class='continuous-text-highlight'>React</span>, criando e aprimorando funcionalidades no lado cliente e servidor. Atuei na implementação de APIs RESTful e integração com tecnologias como WebSocket para comunicação em tempo real. Desenvolvi interfaces interativas e responsivas com React, garantindo uma melhor experiência do usuário. Também participei de reuniões estratégicas para definição de novas soluções com base no levantamento de requisitos. Implementei serviços serverless com <span class='continuous-text-highlight'>AWS Lambda</span> e trabalhei com metodologias ágeis como Scrum e Kanban para otimizar a gestão de projetos e entregas."
+            }
+        ]
+    }
+}
