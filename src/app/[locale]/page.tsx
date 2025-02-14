@@ -21,7 +21,7 @@ export default function home() {
             priority
           />
         </div>
-        <div className="px-5 mt-10 sm:mt-5 text-center max-w-lg sm:text-left text-[1.8em] sm:text-[1.8em] md:text-[2.2em] 2xl:text-[2.8em] color-black dark:text-gray-200 text-lin cursor-default font-bold hero" id="hero-text">
+        <div className="px-5 sm:px-0 mt-10 sm:mt-5 text-center max-w-lg sm:text-left text-[1.8em] sm:text-[1.8em] md:text-[2.2em] 2xl:text-[2.8em] color-black dark:text-gray-200 text-lin cursor-default font-bold hero" id="hero-text">
           <p>{parse(t.raw("hero"))}</p>
         </div>
       </div>
