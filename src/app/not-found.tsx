@@ -1,14 +1,15 @@
 import BaseLayout from '@/components/BaseLayout';
 import { routing } from '@/i18n/routing';
 
-// This page renders when a route like `/unknown.txt` is requested.
-// In this case, the layout at `app/[locale]/layout.tsx` receives
-// an invalid value as the `[locale]` param and calls `notFound()`.
-
 export default function GlobalNotFound() {
     return (
         <BaseLayout locale={routing.defaultLocale}>
-            <p>404</p>
+            <section>
+                <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+                    404 - Page Not Found
+                </h1>
+                <p className="mb-4">A página que você está procurando não existe!</p>
+            </section>
         </BaseLayout>
     );
 }

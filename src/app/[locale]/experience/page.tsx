@@ -1,10 +1,9 @@
 import { useTranslations } from "next-intl";
-import parse from "html-react-parser";
 
 import CompanyCard from "src/components/CompanyCard"
 
 export const metadata = {
-    title: 'Sobre',
+    title: 'Experiência',
     description: 'Read my blog.',
 }
 export default function experience() {

@@ -16,7 +16,43 @@
     },
     "About": {
         "title": "Sobre",
-        "text": "Formada no Ensino Técnico em Informática com ênfase em Programação pelo <span class='continuous-text-highlight'>CEFET/RJ</span> aos 18 anos, descobri cedo minha paixão pela tecnologia. Durante esse período, desenvolvi uma base sólida em algoritmos, estrutura de dados e lógica de programação, realizando meus primeiros projetos. Atualmente, estudo <span class='continuous-text-highlight'>Ciência da Computação</span> na <span class='continuous-text-highlight'>Universidade Estadual do Rio de Janeiro</span>, onde busco levar esse conhecimento para outro nível.<br><br>Além disso, trabalho na <a href='https://somos.globo.com/'>maior emissora da América Latina</a> como <span class='continuous-text-highlight'>Desenvolvedora de Software Pleno</span>, desenvolvendo uma <span class='continuous-text-highlight'>Pipeline</span> integrada aos softwares de criação de conteúdo utilizados pelos designers de <span class='continuous-text-highlight'>Efeitos Visuais</span>.<br><br>O projeto envolve ferramentas em <span class='continuous-text-highlight'>Python</span> e <span class='continuous-text-highlight'>Qt</span>, e tem como objetivo principal otimizar e facilitar o dia a dia dessa equipe."
+        "text": "Formada no Ensino Técnico em Informática com ênfase em Programação pelo <span class='continuous-text-highlight'>CEFET/RJ</span> aos 18 anos, descobri cedo minha paixão pela tecnologia. Durante esse período, desenvolvi uma base sólida em algoritmos, estrutura de dados e lógica de programação, realizando meus primeiros projetos. Atualmente, estudo <span class='continuous-text-highlight'>Ciência da Computação</span> na <span class='continuous-text-highlight'>Universidade Estadual do Rio de Janeiro</span>, onde busco levar esse conhecimento para outro nível.<br><br>Além disso, trabalho na <a href='https://somos.globo.com/'>maior emissora da América Latina</a> como <span class='continuous-text-highlight'>Desenvolvedora de Software Pleno</span>, desenvolvendo uma <span class='continuous-text-highlight'>Pipeline</span> integrada aos softwares de criação de conteúdo utilizados pelos designers de <span class='continuous-text-highlight'>Efeitos Visuais</span>.<br><br>O projeto envolve ferramentas em <span class='continuous-text-highlight'>Python</span> e <span class='continuous-text-highlight'>Qt</span>, e tem como objetivo principal otimizar e facilitar o dia a dia dessa equipe.",
+        "skillsTitle": "Conhecimentos",
+        "skills": {
+            "Programming Languages": [
+                "Python",
+                "JavaScript",
+                "TypeScript",
+                "C#"
+            ],
+            "Front-end": [
+                "Qt",
+                "React.js",
+                "Next.js",
+                "Vue.js"
+            ],
+            "Back-end": [
+                "Django",
+                "Express",
+                "Nest.js",
+                "Node.js",
+                ".NET"
+            ],
+            "Databases": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "Firestore"
+            ],
+            "Infrastructure": [
+                "Google Cloud",
+                "AWS",
+                "Docker",
+                "Jenkins",
+                "Github Actions",
+                "Gitlab CI/CD"
+            ]
+        }
     },
     "Experience": {
         "title": "Experiência de Trabalho",

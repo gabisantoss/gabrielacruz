@@ -16,7 +16,8 @@ export default function home() {
             draggable={false}
             quality={100}
             objectFit="cover"
-            layout='fill'
+            width={300}
+            height={300}
             unoptimized
             priority
           />
