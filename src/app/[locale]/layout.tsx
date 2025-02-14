@@ -13,26 +13,27 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params: { locale }
-}: Omit<Props, 'children'>) {
+export async function generateMetadata({ params }: { params: { locale: string } }) {
+  const { locale } = await params;
+
   const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
 
   return {
-    title: t('title')
+    title: t("title"),
   };
 }
 
+
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params
 }: Props) {
-  // Ensure that the incoming `locale` is valid
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
 
-  // Enable static rendering
   setRequestLocale(locale);
 
   return <BaseLayout locale={locale}>{children}</BaseLayout>;

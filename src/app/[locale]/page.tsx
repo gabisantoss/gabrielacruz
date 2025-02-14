@@ -15,7 +15,6 @@ export default function home() {
             alt="Gabriela Cruz"
             draggable={false}
             quality={100}
-            objectFit="cover"
             width={300}
             height={300}
             unoptimized

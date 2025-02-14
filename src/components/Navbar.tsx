@@ -52,21 +52,21 @@ export default function Navbar() {
         >
           <div className="flex flex-row">
             <Link
-              key={t('home')}
+              key="home"
               href='/'
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 text-[14px] sm:text-[16px] lowercase"
             >
               {t('home')}
             </Link>
             <Link
-              key={t('about')}
+              key="about"
               href='/about'
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 text-[14px] sm:text-[16px] lowercase"
             >
               {t('about')}
             </Link>
             <Link
-              key={t('about')}
+              key="experience"
               href='/experience'
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 text-[14px] sm:text-[16px] lowercase"
             >
