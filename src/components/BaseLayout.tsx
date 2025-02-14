@@ -11,7 +11,6 @@ import Footer from '@/components/footer'
 
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import { baseUrl } from '@/app/sitemap'
 import { notFound } from "next/navigation";
 
 import { ReactNode } from 'react';
@@ -21,34 +20,6 @@ const fontSans = FontSans({
     subsets: ["latin"],
     variable: "--font-sans",
 });
-
-export const metadata: Metadata = {
-    metadataBase: new URL(baseUrl),
-    title: {
-        default: 'Gabriela Cruz | tecnologia e desenvolvimento de software',
-        template: '%s | Gabriela Cruz',
-    },
-    description: 'This is my portfolio.',
-    openGraph: {
-        title: 'My Portfolio',
-        description: 'This is my portfolio.',
-        url: baseUrl,
-        siteName: 'My Portfolio',
-        locale: 'en_US',
-        type: 'website',
-    },
-    robots: {
-        index: true,
-        follow: true,
-        googleBot: {
-            index: true,
-            follow: true,
-            'max-video-preview': -1,
-            'max-image-preview': 'large',
-            'max-snippet': -1,
-        },
-    },
-}
 
 const setInitialTheme = `
   (function() {
