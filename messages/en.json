@@ -17,7 +17,7 @@
     },
     "About": {
         "title": "About",
-        "text": "Graduated in Technical Informatics with a focus on Programming at <span class='continuous-text-highlight'>CEFET/RJ</span>, I discovered my passion for technology early on. During this period, I built a strong foundation in algorithms, data structures, and programming logic, working on my first projects.<br><br>Today, I study <span class='continuous-text-highlight'>Computer Science</span> at the <span class='continuous-text-highlight'>University of Rio de Janeiro State</span>, where I continue to strengthen this foundation while learning new things every day.<br><br>Currently, I work at the largest broadcaster in Latin America as a <span class='continuous-text-highlight'>Mid-Level Software Developer</span>, developing an integrated <span class='continuous-text-highlight'>Pipeline</span> for the content creation software used by <span class='continuous-text-highlight'>Visual Effects</span> designers.<br><br>The project involves tools in <span class='continuous-text-highlight'>Python</span> and <span class='continuous-text-highlight'>Qt</span>, aiming to optimize and streamline their daily workflow.",
+        "text": "Graduated in Technical Informatics with a focus on Programming at <span class='continuous-text-highlight'>CEFET/RJ</span>, I discovered my passion for technology early on. During this period, I built a strong foundation in algorithms, data structures, and programming logic, working on my first projects.<br><br>Today, I study <span class='continuous-text-highlight'>Computer Science</span> at the <span class='continuous-text-highlight'>University of Rio de Janeiro State</span>, where I continue to strengthen this foundation while learning new things every day.<br><br>Currently, I work at the largest broadcaster in Latin America as a <span class='continuous-text-highlight'>Software Engineer</span>, developing an integrated <span class='continuous-text-highlight'>Pipeline</span> for the content creation software used by <span class='continuous-text-highlight'>Visual Effects</span> designers.<br><br>The project involves tools in <span class='continuous-text-highlight'>Python</span> and <span class='continuous-text-highlight'>Qt</span>, aiming to optimize and streamline their daily workflow.",
         "skillsTitle": "Skills",
         "skills": {
             "Programming Languages": [
@@ -54,5 +54,37 @@
                 "Gitlab CI/CD"
             ]
         }
+    },
+    "Experience": {
+        "title": "Work Experience",
+        "companies": [
+            {
+                "name": "Globo",
+                "image": "/img/globo.jpg",
+                "url": "https://somos.globo.com/",
+                "position": "Software Engineer",
+                "startDate": "Feb 2024",
+                "endDate": "Currently",
+                "description": "I worked on developing solutions with <span class='continuous-text-highlight'>JavaScript</span>, TypeScript, and <span class='continuous-text-highlight'>Node.js</span>, enhancing and maintaining systems related to the platform's LMS. I implemented new features using RESTful and GraphQL APIs, ensuring efficiency and scalability. I was also responsible for deployments in local development environments using <span class='continuous-text-highlight'>Docker</span> and for monitoring application health with Grafana and Sentry. Additionally, I contributed to automating and managing CI/CD pipelines using tools like Jenkins and GitHub Actions, ensuring continuous integration and efficient delivery."
+            },
+            {
+                "name": "Descomplica",
+                "image": "/img/descomplica.jpg",
+                "url": "https://descomplica.com.br/",
+                "position": "Junior Software Engineer",
+                "startDate": "Aug 2022",
+                "endDate": "Feb 2024",
+                "description": "I worked on the development of solutions with JavaScript, TypeScript, and Node.js, creating and improving systems associated with the platform's LMS. I worked on the implementation of new features with RESTful APIs and GraphQL, ensuring efficiency and scalability. I was also responsible for deploys in local environments using Docker and for monitoring the health of applications with Grafana and Sentry. In addition, I contributed to the automation and control of CI/CD pipelines with tools like Jenkins and GitHub Actions, ensuring continuous integration and agile deliveries."
+            },
+            {
+                "name": "Concilie Online",
+                "image": "/img/concilie.jpg",
+                "url": "https://www.concilie.com.br/",
+                "position": "Junior Software Engineer",
+                "startDate": "Aug 2022",
+                "endDate": "Feb 2024",
+                "description": "I worked on full-stack development using <span class='continuous-text-highlight'>Python</span>, <span class='continuous-text-highlight'>Django</span>, <span class='continuous-text-highlight'>Node.js</span>, and <span class='continuous-text-highlight'>React</span>, developing and enhancing features on both the client and server sides. I implemented RESTful APIs and integrated WebSocket technology for real-time communication. I built interactive and responsive interfaces with React, improving the user experience. I also participated in strategic meetings to design new project solutions based on requirements gathering. Additionally, I implemented serverless services using <span class='continuous-text-highlight'>AWS Lambda</span> and worked with agile methodologies like Scrum and Kanban to optimize project management and delivery."
+            }
+        ]
     }
 }

@@ -8,19 +8,19 @@ export const metadata = {
     description: 'Read my blog.',
 }
 export default function experience() {
-    const t = useTranslations("workExperience");
+    const t = useTranslations("Experience");
 
-    // const workExperience = t.raw("workExperience");
+    const companies = t.raw("companies");
     return (
         <div>
             <section>
                 <h1 className="font-bold text-black dark:text-gray-200 text-xl mb-5">
-                    Experiência de trabalho
+                    {t("title")}
                 </h1>
                 <div className="font-sans flex flex-col gap-4">
-                    {/* {workExperience.map((company) => (
-                        <CompanyCard key={company.name} company={company} />
-                    ))} */}
+                    {companies.map((company) => (
+                        <CompanyCard company={company} />
+                    ))}
                 </div>
             </section >
         </div>
