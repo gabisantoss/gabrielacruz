@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -H 0.0.0.0"
+    "start": "next start"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.6",

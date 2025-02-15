@@ -10,6 +10,9 @@ const config = {
         };
         return config;
     },
+    env: {
+        BASE_URL: process.env.NODE_ENV === 'production' ? 'https://gabrielacruz.fly.dev' : 'http://localhost:3000',
+    }
 };
 
 module.exports = withNextIntl(config);

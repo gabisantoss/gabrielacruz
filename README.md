@@ -1,42 +1,19 @@
-# Portfolio Blog Starter
+# My Personal Website
+![Light Mode Application Screenshot](https://github.com/gabisantoss/gabrielacruz/blob/main/lightapp.jpg?raw=true)
+![Dark Mode Application Screenshot](https://github.com/gabisantoss/gabrielacruz/blob/main/darkapp.jpg?raw=true)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-This is a porfolio site template complete with a blog. Includes:
-
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
-
-## Demo
-
-https://portfolio-blog-starter.vercel.app
-
-## How to Use
-
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
-
+## Running the project
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
+docker build -f Dockerfile.development --tag portfolioapp . 
+```
+```bash
+docker run -p 3000:3000 -v $(pwd):/app --rm portfolioapp
 ```
 
-Then, run Next.js in development mode:
+## License
+[MIT](https://choosealicense.com/licenses/mit/).
 
-```bash
-pnpm dev
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+## Inspiration
+* [Portfolio Starter Kit](https://vercel.com/templates/next.js/portfolio-starter-kit), by [Vercel](https://vercel.com/)
+* [Portfolio Template](https://magicui.design/docs/templates/portfolio), by [MagicUI](https://magicui.design/)
