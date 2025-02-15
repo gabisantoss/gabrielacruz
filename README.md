@@ -1,4 +1,4 @@
-# My Personal Website
+# gabrielacruz.fly.dev
 ![Light Mode Application Screenshot](https://github.com/gabisantoss/gabrielacruz/blob/main/lightapp.jpg?raw=true)
 ![Dark Mode Application Screenshot](https://github.com/gabisantoss/gabrielacruz/blob/main/darkapp.jpg?raw=true)
 
