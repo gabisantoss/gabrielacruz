@@ -1,18 +1,13 @@
 import { useTranslations } from "next-intl";
 import parse from "html-react-parser";
 
-export const metadata = {
-    title: 'Sobre',
-    // description: about['pt'].replace(/<[^>]*>?/gm, ''),
-}
-
 export default function Page() {
     const t = useTranslations('About');
     const skills = t.raw('skills');
 
     return (
         <div>
-            <section className="text-gray-800 dark:text-gray-200 ">
+            <section className="text-gray-800 dark:text-gray-200 px-5 sm:px-0">
                 <h1 className="font-bold text-xl mb-5">
                     {t("title")}
                 </h1>
