@@ -26,4 +26,5 @@ COPY --from=build /app /app
 ENTRYPOINT [ "/app/docker-entrypoint.js" ]
 
 EXPOSE 3000
-CMD ["sh", "-c", "npm run start -- -H 0.0.0.0"]
+
+CMD ["npx", "next", "start", "-H", "0.0.0.0"]
