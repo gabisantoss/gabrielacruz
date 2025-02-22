@@ -3,7 +3,7 @@
 import clsx from 'clsx';
 import { useParams } from 'next/navigation';
 import { MouseEvent, ReactNode, useEffect, useState, useTransition } from 'react';
-import { Locale, usePathname, useRouter } from '@/i18n/routing';
+import { usePathname, useRouter } from '@/i18n/routing';
 
 type Props = {
     defaultValue: string;
@@ -17,14 +17,14 @@ export default function LocaleSwitcherSelect({
     const pathname = usePathname();
     const params = useParams();
 
-    const [activeLocale, setActiveLocale] = useState<Locale>(defaultValue as Locale);
+    const [activeLocale, setActiveLocale] = useState(defaultValue);
 
     useEffect(() => {
-        setActiveLocale(defaultValue as Locale);
+        setActiveLocale(defaultValue);
     }, [defaultValue]);
 
     function onButtonClick(event: MouseEvent<HTMLButtonElement>) {
-        const nextLocale = event.currentTarget.value as Locale;
+        const nextLocale = event.currentTarget.value;
 
         if (nextLocale !== activeLocale) {
             setActiveLocale(nextLocale);
