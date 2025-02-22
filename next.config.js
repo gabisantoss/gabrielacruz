@@ -12,7 +12,8 @@ const config = {
     },
     env: {
         BASE_URL: process.env.NODE_ENV === 'production' ? 'https://gabrielacruz.fly.dev' : 'http://localhost:3000',
-    }
+    },
+    transpilePackages: ["next-mdx-remote"]
 };
 
 module.exports = withNextIntl(config);

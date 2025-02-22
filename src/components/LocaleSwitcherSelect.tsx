@@ -28,7 +28,7 @@ export default function LocaleSwitcherSelect({
 
         if (nextLocale !== activeLocale) {
             setActiveLocale(nextLocale);
-            startTransition(() => {
+            startTransition(async () => {
                 router.replace(
                     // @ts-expect-error -- TypeScript will validate that only known params
                     // are used in combination with a given pathname. Since the two will

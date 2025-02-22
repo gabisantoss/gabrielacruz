@@ -70,6 +70,13 @@ export default function Navbar() {
             >
               {t('experience')}
             </Link>
+            <Link
+              key="blog"
+              href='/blog'
+              className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 text-[14px] sm:text-[16px] lowercase"
+            >
+              {t('blog')}
+            </Link>
 
             <div className='align-middle sm:px-2 m-0 sm:m-1 mt-2 cursor-pointer flex gap-5 flex-row text-[14px] sm:text-[16px] items-center'>
               <LocaleSwitcher />

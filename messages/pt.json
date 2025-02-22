@@ -6,7 +6,8 @@
     "Navbar": {
         "home": "Início",
         "about": "Sobre",
-        "experience": "Experiência"
+        "experience": "Experiência",
+        "blog": "Blog"
     },
     "LocaleLayout": {
         "title": "Gabriela Cruz | desenvolvimento de software e tecnologia"
@@ -85,5 +86,9 @@
                 "description": "Atuei no desenvolvimento de um <span class='continuous-text-highlight'>CRM</span> utilizando <span class='continuous-text-highlight'>Python</span> e o framework <span class='continuous-text-highlight'>Django</span> integrado a um banco de dados <span class='continuous-text-highlight'>MySQL</span>, criando novas funcionalidades e dando manutenção. Além disso, atuei na implementação de APIs RESTful e integração com tecnologias como <span class='continuous-text-highlight'>WebSocket</span> para comunicação em tempo real. Em relação à infraestrutura, tive contato com o ambiente <span class='continuous-text-highlight'>AWS</span> de computação em nuvem e suas funcionalidades. Também participava ativamente de reuniões estratégicas para definição de novas soluções com base no levantamento de requisitos."
             }
         ]
+    },
+    "BlogPosts": {
+        "lastPublications": "Últimas publicações",
+        "noPostsMessage": "Nenhuma publicação disponível."
     }
 }

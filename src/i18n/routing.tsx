@@ -14,6 +14,14 @@ export const routing = defineRouting({
             pt: '/experiencia',
             en: '/experience'
         },
+        '/blog': {
+            pt: '/blog',
+            en: '/blog'
+        },
+        '/blog/[slug]': {
+            pt: '/blog/[slug]',
+            en: '/blog/[slug]'
+        }
     }
 });
 
