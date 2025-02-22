@@ -14,10 +14,19 @@ export const routing = defineRouting({
             pt: '/experiencia',
             en: '/experience'
         },
+        '/blog': {
+            pt: '/blog',
+            en: '/blog'
+        },
+        '/blog/[slug]': {
+            pt: '/blog/[slug]',
+            en: '/blog/[slug]'
+        }
     }
 });
 
-export type Pathnames = keyof typeof routing.pathnames;
+type DynamicPath = `/blog/${string}`;
+export type Pathnames = keyof typeof routing.pathnames | DynamicPath;
 export type Locale = (typeof routing.locales)[number];
 
 export const { Link, getPathname, redirect, usePathname, useRouter } =
