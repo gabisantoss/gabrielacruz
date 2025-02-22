@@ -14,4 +14,6 @@ model BlogPost {
   slug        String   @unique
   content     String   @db.VarChar(10000)
   publishedAt DateTime @default(now())
+  enTitle     String?
+  enContent   String?
 }

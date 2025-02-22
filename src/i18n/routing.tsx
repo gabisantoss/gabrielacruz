@@ -22,9 +22,6 @@ export const routing = defineRouting({
     }
 });
 
-type DynamicPath = `/blog/${string}`;
-export type Pathnames = keyof typeof routing.pathnames | DynamicPath;
-export type Locale = (typeof routing.locales)[number];
 
 export const { Link, getPathname, redirect, usePathname, useRouter } =
     createNavigation(routing);
