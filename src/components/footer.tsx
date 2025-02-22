@@ -11,7 +11,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.linkedin.com/in/gabisantosdacruz/"
+            href="https://www.linkedin.com/in/gcruzdev/"
           >
             <LinkedinIcon />
           </a>
@@ -31,7 +31,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://x.com/"
+            href="https://x.com/gcruzdev/"
           >
             <XIcon />
           </a>
